@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, button {
+  color: white;
+}
+
+/* Phone Section Styling */
+
+.phone-section .react-tel-input .form-control {
+  padding: 20px 0px 20px 50px;
+  border-radius: 6px;
+}
+
+.phone-section .react-tel-input .selected-flag{
+  border-radius: 6px 0px 0px 6px;
+}
+
+.phone-section .react-tel-input .country-list .country {
+  text-align: start;
+}
+
+/* OTP Section Styling */
+.otp-section .otp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.otp-section .otp-container input {
+  height: 40px !important;
+  width: 40px !important;
+  margin-right: unset !important;
+  border-radius: 50%;
+  color: black;
+}
